@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:regular,500,600,700,800&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="css/style.css">
+		<title>Компот</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__container _container">
+					<a href="#home" class="header__logo">
+						Компот
+					</a>
+					<nav class="header__menu menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#home" class="menu__link">головна</a>
+							</li>
+							<li class="menu__item">
+								<a href="#tariffs" class="menu__link">тарифи</a>
+							</li>
+							<li class="menu__item">
+								<a href="#pays" class="menu__link">оплата</a>
+							</li>
+							<li class="menu__item">
+								<a href="https://kompot.uz.ua:9443/" class="menu__link">кабінет</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+			<main class="page" >
+				<div class="page__main-block main-block" id="home">
+					<div class="main-block__container _container">
+						<div class="main-block__body">
+							<h1 class="main-block__title">Сервіс кращий за ціну</h1>
+							<div class="main-block__text">
+								Замовити підключення
+							</div>
+							<div class="main-block__buttons">
+								<a href="https://docs.google.com/forms/d/e/1FAIpQLSeTB6xi42f4XFZq9-WPHTMYxipnQB0bJ9IT-HFN--Yi9oKdTw/viewform?usp=sf_link" class="main-block__button main-block__button_orange" onclick="showForm()">Залишити заявку</a>
+								<a href="#details" class="main-block__button main-block__button_border">зв'язатись</a>
+							</div>
+							
+							
+							
+						</div>
+					</div>
+					<div class="main-block__image _ibg">
+						<img src="img/mainblock/cover.jpg" alt="cover">
+					</div>
+				</div>
+				<section class="page__services services">
+					<div class="services__container _container" id="home">
+						<div class="services__body">
+							<div class="services__column">
+								<div class="services__item item-service" >
+									<div class="item-service__icon"><img src="img/services/01.svg" alt="Environmental Consulting"></div>
+									<h3 class="item-service__title">Технічна підтримка</h3>
+									<div class="item-service__text">Ми завжди поруч, щоб допомогти вам вирішити технічні питання та забезпечити стабільне з'єднання</div>
+								</div>
+							</div>
+							<div class="services__column">
+								<div class="services__item item-service">
+									<div class="item-service__icon"><img src="img/services/02.svg" alt="Finance and consultancy"></div>
+									<h3 class="item-service__title">Комерційний інтернет</h3>
+									<div class="item-service__text">Пропонуємо стабільний інтернет для вашого офісу чи підприємства</div>
+								</div>
+							</div>
+							<div class="services__column">
+								<div class="services__item item-service item-service_green">
+									<div class="item-service__icon"><img src="img/services/03.svg" alt="Financial Services Consulting"></div>
+									<h3 class="item-service__title">Підключення до мережі</h3>
+									<div class="item-service__text">Надійне та швидке підключення за оптимальними тарифами</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__advantages advantages">
+					<div class="advantages__container _container" id="tariffs">
+						<div class="advantages__header header-block">
+							<h2 class="header-block__title">Тарифні плани</h2>
+						</div>
+				
+						<div class="advantages__body">
+							
+							<div class="advantages__grid" id="tariffs">
+								<div class="advantages__item">
+									<div class="advantages__value">Econom</div>
+									<div class="advantages__text">до 50Mbit - 200 грн/міс</div>
+								</div>
+								<div class="advantages__item">
+									<div class="advantages__value">Standart</div>
+									<div class="advantages__text">до 100Mbit - 250 грн/міс</div>
+								</div>
+								<div class="advantages__item">
+									<div class="advantages__value">Lux</div>
+									<div class="advantages__text">до 300Mbit - 350 грн/міс</div>
+								</div>
+								<div class="advantages__item">
+									<div class="advantages__value">Daily</div>
+									<div class="advantages__text">15 грн/доба</div>
+								</div>
+							</div>
+				            <div class="advantages__container _container">
+							
+							<div class="advantages__header header-block">
+								<h2 class="header-block__title">Комерційні тарифи</h2>
+							</div>
+							</div>
+							<div class="advantages__grid">
+								<div class="advantages__item">
+									<div class="advantages__value">Econom</div>
+									<div class="advantages__text">до 20Mbit - 300 грн</div>
+								</div>
+								<div class="advantages__item">
+									<div class="advantages__value">Standart</div>
+									<div class="advantages__text">до 50Mbit - 500 грн</div>
+								</div>
+								<div class="advantages__item">
+									<div class="advantages__value">Lux</div>
+									<div class="advantages__text">100Mbit - 800 грн</div>
+								</div>
+							</div>
+							<div class="header-block__sub-title">
+								*усі комерційні приміщення, наприклад стоматологічні кабінети, офіси та магазини, підпадають під комерційні тарифи
+							</div>
+						</div>
+					</div>
+				</section>
+				
+				<section class="page__practice practice" >
+					<div class="practice__container _container" id="pays">
+						<div class="practice__header header-block">
+							<h2 class="header-block__title">Оплата</h2>
+						</div>
+						<div class="practice__body" style="display: flex; justify-content: center; align-items: center; ">
+							<div class="practice__column" style="text-align: center;">
+								<article class="practice__item item-practice">
+									<div class="item-practice__content">
+										<a href="https://next.privat24.ua/payments/form/%7B%22companyID%22:%223204925%22,%22form%22:%7B%22query%22:%22%D0%9A%D0%BE%D0%BC%D0%BF%D0%BE%D1%82%22%7D%7D" 
+										   class="item-practice__link" target="_blank">
+											<h4 class="item-practice__title" style="margin: 0;">Privat24</h4>
+										</a>
+									</div>
+								</article>
+							</div>
+							<div class="practice__column" style="text-align: center;">
+								<article class="practice__item item-practice">
+									<div class="item-practice__content">
+										<a href="https://easypay.ua/ru/catalog/internet/kom-pot-internet-new" 
+										   class="item-practice__link" target="_blank">
+											<h4 class="item-practice__title" style="margin: 0;">EasyPay</h4>
+										</a>
+									</div>
+								</article>
+							</div>
+							<div class="practice__column" style="text-align: center;">
+								<article class="practice__item item-practice">
+									<div class="item-practice__content">
+										<a href="http://kompot.uz.ua/wp-content/themes/pacific/public/img/A4_qrpay_1.pdf" 
+										   class="item-practice__link" target="_blank">
+											<h4 class="item-practice__title" style="margin: 0;">Privat QR code</h4>
+										</a>
+									</div>
+								</article>
+							</div>
+						</div>
+					</div>
+				</section>
+				<section class="page__practice practice" id="pays">
+					<div class="practice__container _container">
+					<p> </p>
+					
+					</div>
+				</section>
+				<section class="page__getintouch getintouch">
+					<div class="getintouch__container _container">
+						<div class="getintouch__header header-block" id="details">
+							<h2 class="header-block__title">Контакти</h2>
+							
+						<div class="getintouch__items">
+							<div class="getintouch__item item-getintouch">
+								<div class="item-getintouch__icon">
+									<img src="img/getintouch/01.svg" alt="getintouch">
+								</div>
+								<div class="item-getintouch__emails">
+									<a href="tel:+380955894646" class="item-getintouch__email">+380 95 589 4646- lifecell</a>
+									<a href="tel:+380985894646" class="item-getintouch__email">+380 98 589 4646 - kyivstar</a>
+								</div>
+								
+							</div>
+							<div class="getintouch__item item-getintouch item-getintouch_active">
+								<div class="item-getintouch__icon">
+									<img src="img/getintouch/02.svg" alt="getintouch">
+								</div>
+								<div class="item-getintouch__emails">
+									<a href="" class="item-getintouch__email">м. Ужгород вул. Рилєєва 4 </a>
+									
+								</div>
+								
+								<a href="https://maps.app.goo.gl/7robHrFPkagtjrSM9" class="item-getintouch__button">маршрут</a>
+							</div>
+							<div class="getintouch__item item-getintouch">
+								<div class="item-getintouch__icon">
+									<img src="img/getintouch/03.svg" alt="getintouch">
+								</div>
+								<div class="item-getintouch__emails">
+									<a href="https://t.me/kompot_uzh" class="item-getintouch__email">телеграм</a>
+									
+							</div>
+						</div>
+					</div>
+				</section>
+		<script src="js/script.js"></script>
+	</body>
+</html>
